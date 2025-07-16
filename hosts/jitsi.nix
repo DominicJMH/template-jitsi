@@ -2,7 +2,7 @@
 
 # TODO: Change these variables to whatever works for you
 let # This lets you log in via SSH
-    sshKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIVpNqdbM7uE1xkKoXztoaAtKtDHoqHS3DrzxYKsDgxa jkarni@garnix.io";
+    sshKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICyJ0zy84dNAnoev2w1X1oxr3X4xVX1HIqfOMDtsN6/y dominic.mills@tii.ae";
     # This should be based on your repo. In particular, it should be:
     #    jitsi.<BRANCH>.<REPONAME>.<GITHUB ORG/USER>.garnix.me
     # It can also be a custom domain. In that case, set up a CNAME to the above
