@@ -17,7 +17,7 @@ in {
   services.openssh.enable = true;
   #   - Then we create a user called "me". You can change it if you like; just
   #     remember to use that user when ssh'ing into the machine.
-  users.users.me = {
+  users.users.dominic = {
     # This lets NixOS know this is a "real" user rather than a system user,
     # giving you for example a home directory.
     isNormalUser = true;
@@ -45,7 +45,7 @@ in {
   # This specifies what packages are available in your system. You can choose
   # from over 100,000 - search for them here:
   #   https://search.nixos.org/options?channel=24.05
-  environment.systemPackages = [
+  environment.systemPackages = with pkgs; [
     pkgs.htop
   ];
 
