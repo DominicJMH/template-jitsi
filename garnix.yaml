@@ -4,8 +4,3 @@ builds:
  - '*.x86_64-linux.*'
  - 'packages.aarch64-darwin.*'
  - 'packages.aarch64-linux.*'
-servers:
-  - configuration: jitsi
-    deployment:
-      type: on-branch
-      branch: main
