@@ -46,7 +46,10 @@ in {
   # from over 100,000 - search for them here:
   #   https://search.nixos.org/options?channel=24.05
   environment.systemPackages = with pkgs; [
-    pkgs.htop
+    htop
+    chromium
+    python314
+    ghc
   ];
 
   # We open these ports.
